@@ -3,3 +3,7 @@
 @tailwind components;
 
 @tailwind utilities;
+
+.calculator {
+  box-shadow: 0px 2px 11px -3px #000000;
+}
