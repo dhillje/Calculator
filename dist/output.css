@@ -498,16 +498,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 20rem;
 }
 
-.w-10 {
-  width: 2.5rem;
-}
-
-.w-11 {
-  width: 2.75rem;
-}
-
 .w-96 {
   width: 24rem;
+}
+
+.w-10 {
+  width: 2.5rem;
 }
 
 .flex-wrap {
@@ -526,11 +522,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 .bg-blue-200 {
   --tw-bg-opacity: 1;
   background-color: rgb(191 219 254 / var(--tw-bg-opacity));
-}
-
-.bg-black {
-  --tw-bg-opacity: 1;
-  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
 }
 
 .bg-white {

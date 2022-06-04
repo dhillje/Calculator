@@ -7,8 +7,8 @@ for (let i = 0; i < btns.length; i++) {
   btns[i].addEventListener("click", function (e) {
     e.preventDefault();
 
-    const btnValue = btns[i].value;
-    input.innerText = `${btnValue}`;
-    total = btnValue;
+    const btnValue = parseInt(btns[i].value);
+    const total = btnValue + btnValue;
+    input.innerText = `${total}`;
   });
 }
