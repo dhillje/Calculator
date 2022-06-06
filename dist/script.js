@@ -22,3 +22,10 @@ for (let i = 0; i < btns.length; i++) {
     secondNum.innerText = `${entry2}`;
   });
 }
+
+plusBtn.addEventListener("click", function (e) {
+  e.preventDefault();
+  const plusValue = parseInt(plusBtn.value);
+  const add = `${entry1} ${plusValue} ${entry2}`;
+  firstNum.innerText = `${add}`;
+});
