@@ -19,7 +19,7 @@ for (let i = 0; i < btns.length; i++) {
     const entry1 = entryNums[0];
     const entry2 = entryNums[1];
     firstNum.innerText = `${entry1}`;
-    secondNum.innerText = `${entry2}`;
+    firstNum.innerText = `${entry2}`;
 
     if (entry1 != 0) {
       const total = entry1 + entry2;

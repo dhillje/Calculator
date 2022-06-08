@@ -482,6 +482,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-bottom: 5rem;
 }
 
+.my-auto {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
 .flex {
   display: flex;
 }
@@ -506,8 +511,16 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 2.5rem;
 }
 
+.w-64 {
+  width: 16rem;
+}
+
 .flex-wrap {
   flex-wrap: wrap;
+}
+
+.justify-center {
+  justify-content: center;
 }
 
 .rounded-md {
@@ -539,6 +552,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .text-center {
   text-align: center;
+}
+
+.align-middle {
+  vertical-align: middle;
 }
 
 .text-4xl {
