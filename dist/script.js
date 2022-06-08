@@ -20,12 +20,10 @@ for (let i = 0; i < btns.length; i++) {
     const entry2 = entryNums[1];
     firstNum.innerText = `${entry1}`;
     secondNum.innerText = `${entry2}`;
+
+    if (entry1 != 0) {
+      const total = entry1 + entry2;
+      firstNum.innerText = `${total}`;
+    }
   });
 }
-
-plusBtn.addEventListener("click", function (e) {
-  e.preventDefault();
-  const plusValue = parseInt(plusBtn.value);
-  const add = `${entry1} ${plusValue} ${entry2}`;
-  firstNum.innerText = `${add}`;
-});
